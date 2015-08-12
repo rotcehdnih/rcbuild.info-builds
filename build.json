@@ -1,18 +1,24 @@
-{"version": 1,
- "config": {
-    "frame" : "",
-    "arm" : "",
-    "fc" : "",
-    "osd" : "",
-    "receiver" : "",
-    "flightcam" : "",
-    "hqcam" : "",
-    "esc" : "",
-    "motor" : "",
-    "videotx" : "",
-    "blackbox" : "",
-    "voltagereg" : "",
-    "prop" : [],
-    "battery" : []
-  }
+{
+  "config": {
+    "frame": "ReadyMadeRC/ZMR-250",
+    "esc": "B-12A Ice Blue series BLHeli-(OneShot)",
+    "motor": "RCX H2206 2250kv",
+    "fc": "ReadyToFlyQuads/Flip32-v2.5-r7",
+    "prop": [
+      "Surveilzone/DalProp-6x4"
+    ],
+    "arm": "",
+    "battery": [
+      "Turnigy Nano-Tech 4S 1800mAh 35-70C",
+      "Horeson 4S 1900mAh 40C"
+    ],
+    "osd": "ReadyToFlyQuads/Micro-MinimOSD",
+    "receiver": "FrSky/X4RSB",
+    "flightcam": "RunCam/PZ0420M",
+    "hqcam": "Xiaomi Yi",
+    "videotx": "ImmersionRC 5.8GHz 250mw",
+    "blackbox": "",
+    "voltagereg": ""
+  },
+  "version": 1
 }
